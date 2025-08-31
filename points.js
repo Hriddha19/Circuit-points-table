@@ -10,7 +10,7 @@ const teams = [
   { name: "DesTroyer", PTS: 12 },
   { name: "Supa Strikers", PTS: 6 },
   { name: "Chuha Gang", PTS: 6 },
-  { name: "T*m Haters", PTS: 0 },
+  { name: "T*m Haters", PTS: 5 },
 ];
 
 // Function to build league table
