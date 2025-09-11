@@ -42,20 +42,20 @@ header .subtitle {
   text-align: center;
 }
 
-/* Table container */
+/* Table container with rounded corners */
 .table-container {
   margin: 40px auto;
   width: 95%;
   max-width: 1200px;
   background: #161b22;
-  border-radius: 12px;
-  overflow: hidden;
+  border-radius: 12px; /* rounded corners on desktop and mobile */
+  overflow: hidden;    /* ensures rows don’t spill over corners */
   box-shadow: 0 6px 16px rgba(0,0,0,0.6);
 }
 
 /* Table */
 table {
-  width: 100%;
+  width: 100%;          /* fill container width */
   border-collapse: collapse;
   text-align: center;
   font-size: 1.15rem;
@@ -122,10 +122,10 @@ footer {
     padding: 12px;
   }
 
-  /* Flush table to screen edges on mobile */
+  /* Flush container width to screen edges but keep rounded corners */
   .table-container {
     width: 100%;
-    margin: 20px 0; /* minimal vertical spacing */
-    border-radius: 0; /* optional: edge-to-edge */
+    margin: 20px 0;
+    border-radius: 12px; /* keep corners even on mobile */
   }
 }
