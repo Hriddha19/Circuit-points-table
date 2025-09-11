@@ -24,9 +24,11 @@ function buildTable() {
   teams.forEach((team, index) => {
     const row = document.createElement("tr");
     
-    // Add top-team class for first 10 teams
+    // Add top-team class for first 10 teams, bottom-team for rest
     if (index < 10) {
       row.classList.add("top-team");
+    } else {
+      row.classList.add("bottom-team");
     }
     
     row.innerHTML = `
