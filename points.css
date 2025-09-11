@@ -92,6 +92,11 @@ tbody tr.top-team {
   border-left: 6px solid #2ea44f;
 }
 
+/* Red left border for teams below 10 */
+tbody tr.bottom-team {
+  border-left: 6px solid #d73a49;
+}
+
 /* Footer */
 footer {
   margin-top: auto;
