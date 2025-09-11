@@ -6,9 +6,9 @@ const teams = [
   { name: "Olympus FC", PTS: 63 },
   { name: "BaharSeLona", PTS: 39 },
   { name: "Hyper Crafters CF", PTS: 56 },
-  { name: "TriForce FC", PTS: 21 },
+  { name: "TriForce FC", PTS: 51 },
   { name: "DesTroyer", PTS: 32 },
-  { name: "Supa Strikers", PTS: 6 },
+  { name: "Supa Strikers", PTS: 15 },
   { name: "Chuha Gang", PTS: 6 },
   { name: "T*m Haters", PTS: 0 },
 ];
@@ -17,12 +17,18 @@ const teams = [
 function buildTable() {
   const tbody = document.querySelector("#pointsTable tbody");
   tbody.innerHTML = "";
-
-  // Sort by PTS (highest first)
+  
+  // Sort by PTS descending
   teams.sort((a, b) => b.PTS - a.PTS);
-
+  
   teams.forEach((team, index) => {
     const row = document.createElement("tr");
+    
+    // Add top-team class for first 10 teams
+    if (index < 10) {
+      row.classList.add("top-team");
+    }
+    
     row.innerHTML = `
       <td class="rank">${index + 1}</td>
       <td>${team.name}</td>
@@ -32,5 +38,15 @@ function buildTable() {
   });
 }
 
-// Build table when page loads
-document.addEventListener("DOMContentLoaded", buildTable);
+// Function to manually set last updated time
+function setLastUpdated(timeString) {
+  const footer = document.getElementById("footer");
+  footer.textContent = `Last updated on ${timeString}`;
+}
+
+// Build table on page load
+document.addEventListener("DOMContentLoaded", () => {
+  buildTable();
+  // Example: set manually — you can change this string anytime
+  setLastUpdated("September 10, 2025 - 09:15 AM");
+});
