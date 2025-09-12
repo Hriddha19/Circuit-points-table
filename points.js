@@ -3,7 +3,7 @@ const teams = [
   { name: "Vanguard FC", PTS: 58 },
   { name: "Pro Challengers", PTS: 72 },
   { name: "COOKINHOS BRIGADE", PTS: 56 },
-  { name: "Olympus FC", PTS: 73 },
+  { name: "Olympus FC", PTS: 93 },
   { name: "BaharSeLona", PTS: 48 },
   { name: "Hyper Crafters CF", PTS: 56 },
   { name: "TriForce FC", PTS: 51 },
