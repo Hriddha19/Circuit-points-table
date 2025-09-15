@@ -11,6 +11,7 @@ const teams = [
   { name: "Supa Strikers", PTS: 15 },
   { name: "Chuha Gang", PTS: 6 },
   { name: "T*m Haters", PTS: 0 },
+  { name: "Haramball Stevie Slippers", PTS: 0 },
 ];
 
 // Function to build league table
@@ -50,5 +51,5 @@ function setLastUpdated(timeString) {
 document.addEventListener("DOMContentLoaded", () => {
   buildTable();
   // Example: set manually — you can change this string anytime
-  setLastUpdated("September 12, 2025 - 12:50 PM");
+  setLastUpdated("September 12, 2025 - 10:35 PM");
 });
