@@ -2,12 +2,12 @@
 const teams = [
   { name: "Vanguard FC", PTS: 128 },
   { name: "Pro Challengers", PTS: 87 },
-  { name: "COOKINHOS BRIGADE", PTS: 56 },
+  { name: "COOKINHOS BRIGADE", PTS: 76 },
   { name: "Olympus FC", PTS: 133 },
   { name: "BaharSeLona", PTS: 63 },
   { name: "Hyper Crafters CF", PTS: 80 },
   { name: "TriForce FC", PTS: 141 },
-  { name: "DesTroyer", PTS: 52 },
+  { name: "DesTroyer", PTS: 58 },
   { name: "Supa Strikers", PTS: 40 },
   { name: "Chuha Gang", PTS: 6 },
   { name: "T*m Haters", PTS: 70 },
@@ -51,5 +51,5 @@ function setLastUpdated(timeString) {
 document.addEventListener("DOMContentLoaded", () => {
   buildTable();
   // Example: set manually — you can change this string anytime
-  setLastUpdated("September 12, 2025 - 10:35 PM");
+  setLastUpdated("September 17, 2025 - 10:24 PM");
 });
