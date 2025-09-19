@@ -1,14 +1,14 @@
 // Example teams JSON
 const teams = [
-  { name: "Vanguard FC", PTS: 128 },
-  { name: "Pro Challengers", PTS: 87 },
+  { name: "Vanguard FC", PTS: 134 },
+  { name: "Pro Challengers", PTS: 117 },
   { name: "COOKINHOS BRIGADE", PTS: 76 },
   { name: "Olympus FC", PTS: 133 },
-  { name: "BaharSeLona", PTS: 63 },
+  { name: "BaharSeLona", PTS: 72 },
   { name: "Hyper Crafters CF", PTS: 80 },
   { name: "TriForce FC", PTS: 141 },
   { name: "DesTroyer", PTS: 58 },
-  { name: "Supa Strikers", PTS: 40 },
+  { name: "Supa Strikers", PTS: 60 },
   { name: "Chuha Gang", PTS: 6 },
   { name: "T*m Haters", PTS: 70 },
   { name: "Haramball Stevie Slippers", PTS: 0 },
