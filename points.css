@@ -543,7 +543,7 @@ footer {
   
   tbody tr:hover .team-logo {
   transform: scale(1);
-  box-shadow: 0 0 11px rgba(88, 166, 255, 0.3);
+  box-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
   }
 
   .team-logo {
