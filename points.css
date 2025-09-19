@@ -521,13 +521,13 @@ footer {
     padding-left: 0;
     gap: 6px;
     flex-wrap: nowrap;
-    overflow: hidden;
+    overflow: visible;
     min-height: 45px;
     align-items: center;
   }
 
   .team-name {
-    font-size: 0.80rem;
+    font-size: 0.83rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -535,6 +535,11 @@ footer {
     flex: 1;
     min-width: 0;
     line-height: 1.2;
+  }
+  
+  tbody tr:hover .team-logo {
+  transform: scale(1);
+  box-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
   }
 
   .team-logo {
@@ -698,6 +703,7 @@ footer {
   .team-logo {
     width: 35px;
     height: 35px;
+    border-radius: 50%;
   }
 
   table {
