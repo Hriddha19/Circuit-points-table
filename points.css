@@ -31,6 +31,9 @@ body.light-theme {
   .legend-item {
     color: #24292f;
   }
+  header .subtitle {
+    color: #24292f;
+  }
 }
 
 body.light-theme header,
@@ -38,6 +41,7 @@ body.light-theme .table-container,
 body.light-theme footer {
   background: #ffffff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  color: #24292f;
 }
 
 body.light-theme .table-container {
@@ -539,7 +543,7 @@ footer {
   
   tbody tr:hover .team-logo {
   transform: scale(1);
-  box-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
+  box-shadow: 0 0 11px rgba(88, 166, 255, 0.3);
   }
 
   .team-logo {
