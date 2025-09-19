@@ -51,5 +51,5 @@ function setLastUpdated(timeString) {
 document.addEventListener("DOMContentLoaded", () => {
   buildTable();
   // Example: set manually — you can change this string anytime
-  setLastUpdated("September 17, 2025 - 10:24 PM");
+  setLastUpdated("September 19, 2025 - 12:55 PM");
 });
