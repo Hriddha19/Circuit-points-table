@@ -1,55 +1,257 @@
-// Example teams JSON
+// Enhanced teams JSON with logo URLs
 const teams = [
-  { name: "Vanguard FC", PTS: 134 },
-  { name: "Pro Challengers", PTS: 117 },
-  { name: "COOKINHOS BRIGADE", PTS: 76 },
-  { name: "Olympus FC", PTS: 133 },
-  { name: "BaharSeLona", PTS: 72 },
-  { name: "Hyper Crafters CF", PTS: 80 },
-  { name: "TriForce FC", PTS: 141 },
-  { name: "DesTroyer", PTS: 58 },
-  { name: "Supa Strikers", PTS: 60 },
-  { name: "Chuha Gang", PTS: 6 },
-  { name: "T*m Haters", PTS: 70 },
-  { name: "Haramball Stevie Slippers", PTS: 0 },
+  {
+    name: "Vanguard FC",
+    PTS: 134,
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1404849958678696076/image0.jpg?ex=68ce203a&is=68ccceba&hm=0df1e17433d88b4c3d1b7e73dae9978cf20b609af79e0edf8cd2711bf2063906&"
+  },
+  {
+    name: "Pro Challengers",
+    PTS: 117,
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1405137312811188294/sample_0.png?ex=68ce8319&is=68cd3199&hm=706e24f7e393287fff4f9839712b4c5752203e00a6d765e087f80a4abd92d4cc&"
+  },
+  {
+    name: "COOKINHOS BRIGADE",
+    PTS: 76,
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1405512386793832448/logo.jpg?ex=68ce8eea&is=68cd3d6a&hm=d5c5e45df1198c69aed5bf0c9fb9b253cf477b0acf6ebd8a87422ffa6d77ff93&"
+  },
+  {
+    name: "Olympus FC",
+    PTS: 133,
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1404785865208762469/Picsart_25-05-20_17-17-06-967.jpg?ex=68ce8d49&is=68cd3bc9&hm=b19c2a871bfa6fbcfab336cf515273c9b5b32aabc9937d7960cffae9e06a5937&"
+  },
+  {
+    name: "BaharSeLona",
+    PTS: 72,
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1404902988689965138/White_Black_Gold_Circle_Modern_Football_Club_Logo_20250812_225747_0000.png?ex=68ce519e&is=68cd001e&hm=32b95a4823e3eec23e85fcd749904c21cfdfcb933a7d5e3fef8238a805d2078b&"
+  },
+  {
+    name: "Hyper Crafters CF",
+    PTS: 80,
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1404785737282486322/image.png?ex=68ce8d2b&is=68cd3bab&hm=557e4858a4913fdbfc71af22f2ed654de093cebae3d0541f6afcc6bdeb415f11&"
+  },
+  {
+    name: "TriForce FC",
+    PTS: 141,
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1404856320905056259/Contemporary_Logo_with_Metallic_Accents_20250812_180614_0000.png?ex=68ce2627&is=68ccd4a7&hm=f215d4b846f55009cf3c6c0c5ec4bc8884bea64f10f15ea78a972fdeb8ba8b2b&"
+  },
+  {
+    name: "DesTroyer",
+    PTS: 58,
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1404841739231039610/D7AD5A44-E5A5-45AF-81E7-4E1565D41A04.jpg?ex=68ce1893&is=68ccc713&hm=13fb4be850e682d79ca1526896249628308349214c0fbe7e1ab8993b7bfe025d&"
+  },
+  {
+    name: "Supa Strikers",
+    PTS: 60,
+    logo: "https://cdn.discordapp.com/attachments/1408418256481423421/1408451779661791372/file_000000003da061fb87c9cfb096c823a7.png?ex=68ce0bb0&is=68ccba30&hm=3c423bada2d02b65556b535910cb79da9ca0f04d3d69f354166991e065c30af5&"
+  },
+  {
+    name: "Chuha Gang",
+    PTS: 6,
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1404860385529565295/This_Facebook_Page_Is_All_About_Animal_Images_That_Need_To_Be_Seen_50_Pics_1.jpg?ex=68ce29f0&is=68ccd870&hm=304b4aac16af95e822f42b00732fcba33d75070eee155edc534ac85953171e5b&"
+  },
+  {
+    name: "T*m Haters",
+    PTS: 70,
+    logo: "https://cdn.discordapp.com/attachments/1360273123727114505/1408440446329552897/eyJpZCI6Im1fNjhhODYyOTBkOTkwODE5MTljYTJiZTc2YTlhM2E3MTE6c2VkaW1lbnQ6Ly8zMjhiZjg0YThiNDYzNzEjZmlsZV8wMDAwMDAwMGQ0ZjA2MjJmOGFkZjNmNDc5NWM5OWM4OSNtZCIsInRzIjoiNDg3NzQwIiwicCI6InB5aSIsInNpZyI6IjZhZDZhMzU0MzgxM2MzMzg2NDM1NjM4NDA5ODE4MzRjODU3MjE0MmRlMDJlN2IwZWNhYjZmYzZlZmM3MTFlYmIiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ3D3D.png?ex=68ce0121&is=68ccafa1&hm=5d8e74687d3ffdf5b41ce8ead2e86d33dfa1a78ddabbd52b46c58ba90a4379dd&"
+  },
+  {
+    name: "Haramball Stevie Slippers",
+    PTS: 0,
+    logo: "https://cdn.discordapp.com/attachments/1155796263795707904/1417180149572698243/file_00000000c62461fbae94971a35f252ab.png?ex=68ce289d&is=68ccd71d&hm=e00704a684b98b26898d281d058bbd7c940cc3dfe39c5745dd3f777a2da7dca9&"
+  },
 ];
 
-// Function to build league table
+// Manual last updated string.
+// Change this value to whatever you want displayed in the footer.
+const manualLastUpdated = "September 19, 2025, 04:00 PM";
+
+// Function to show loading spinner
+function showLoading() {
+  const spinner = document.getElementById("loadingSpinner");
+  if (spinner) spinner.style.display = "block";
+}
+
+// Function to hide loading spinner
+function hideLoading() {
+  const spinner = document.getElementById("loadingSpinner");
+  if (spinner) spinner.style.display = "none";
+}
+
+// Function to build league table with enhanced animations
 function buildTable() {
+  showLoading();
+
   const tbody = document.querySelector("#pointsTable tbody");
+  if (!tbody) return;
   tbody.innerHTML = "";
-  
+
   // Sort by PTS descending
   teams.sort((a, b) => b.PTS - a.PTS);
-  
-  teams.forEach((team, index) => {
-    const row = document.createElement("tr");
-    
-    // Add top-team class for first 10 teams, bottom-team for rest
-    if (index < 10) {
-      row.classList.add("top-team");
+
+  // Add delay for realistic loading effect
+  setTimeout(() => {
+    teams.forEach((team, index) => {
+      const row = document.createElement("tr");
+
+      // Add position classes
+      if (index < 10) {
+        row.classList.add("top-team");
+      } else {
+        row.classList.add("bottom-team");
+      }
+
+      // Determine status
+      const status = index < 10 ? "qualified" : "not-qualified";
+      const statusText = index < 10 ? "Qualification Zone" : "Elimination Zone";
+
+      // Create team cell with logo
+      const teamCell = `
+        <div class="team-cell">
+          <img src="${team.logo}" alt="${team.name}" class="team-logo"
+               onerror="this.src='https://via.placeholder.com/35x35/58a6ff/ffffff?text=${encodeURIComponent(team.name.charAt(0))}'">
+          <span class="team-name">${team.name}</span>
+        </div>
+      `;
+
+      row.innerHTML = `
+        <td class="rank-cell">${index + 1}</td>
+        <td>${teamCell}</td>
+        <td class="points-cell">${team.PTS}</td>
+        <td><span class="status-badge ${status}">${statusText}</span></td>
+      `;
+
+      // Add staggered animation delay
+      row.style.animationDelay = `${index * 0.1}s`;
+
+      tbody.appendChild(row);
+    });
+
+    // Hide loading spinner and show table
+    hideLoading();
+    const tableContainer = document.querySelector('.table-container');
+    if (tableContainer) tableContainer.style.opacity = '1';
+    const legend = document.querySelector('.legend');
+    if (legend) legend.style.opacity = '1';
+  }, 1000); // Simulated loading time
+}
+
+// Theme toggle functionality
+function initThemeToggle() {
+  const themeToggle = document.getElementById('themeToggle');
+  const body = document.body;
+  if (!themeToggle) return;
+  const icon = themeToggle.querySelector('i');
+  const text = themeToggle.querySelector('span');
+
+  // Check for saved theme preference
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'light') {
+    body.classList.add('light-theme');
+    if (icon) icon.className = 'fas fa-sun';
+    if (text) text.textContent = 'Light Mode';
+  }
+
+  themeToggle.addEventListener('click', () => {
+    body.classList.toggle('light-theme');
+
+    if (body.classList.contains('light-theme')) {
+      if (icon) icon.className = 'fas fa-sun';
+      if (text) text.textContent = 'Light Mode';
+      localStorage.setItem('theme', 'light');
     } else {
-      row.classList.add("bottom-team");
+      if (icon) icon.className = 'fas fa-moon';
+      if (text) text.textContent = 'Dark Mode';
+      localStorage.setItem('theme', 'dark');
     }
-    
-    row.innerHTML = `
-      <td class="rank">${index + 1}</td>
-      <td>${team.name}</td>
-      <td>${team.PTS}</td>
-    `;
-    tbody.appendChild(row);
+
+    // Add click animation
+    themeToggle.style.transform = 'scale(0.95)';
+    setTimeout(() => {
+      themeToggle.style.transform = 'scale(1)';
+    }, 150);
   });
 }
 
-// Function to manually set last updated time
+// Function to manually set last updated time with animation
 function setLastUpdated(timeString) {
   const footer = document.getElementById("footer");
-  footer.textContent = `Last updated on ${timeString}`;
+  if (!footer) return;
+  footer.innerHTML = `
+    <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+      <i class="fas fa-clock"></i>
+      <span>Last updated on ${timeString}</span>
+    </div>
+  `;
 }
 
-// Build table on page load
+// Add scroll animations
+function initScrollAnimations() {
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, observerOptions);
+
+  // Observe table rows
+  document.querySelectorAll('tbody tr').forEach(row => {
+    observer.observe(row);
+  });
+}
+
+// Add hover sound effects (optional - commented out for simplicity)
+function addHoverEffects() {
+  document.querySelectorAll('tbody tr').forEach(row => {
+    row.addEventListener('mouseenter', () => {
+      // Optional: Add subtle sound effect or haptic feedback
+      row.style.transform = 'translateX(5px) scale(1.02)';
+    });
+
+    row.addEventListener('mouseleave', () => {
+      row.style.transform = 'translateX(0) scale(1)';
+    });
+  });
+}
+
+// Initialize everything when page loads
 document.addEventListener("DOMContentLoaded", () => {
+  // Initialize theme toggle
+  initThemeToggle();
+
+  // Build table with animations
   buildTable();
-  // Example: set manually — you can change this string anytime
-  setLastUpdated("September 19, 2025 - 12:55 PM");
+
+  // Use manual timestamp (will not be overwritten)
+  setLastUpdated(manualLastUpdated);
+
+  // Initialize additional effects after table is built
+  setTimeout(() => {
+    initScrollAnimations();
+    addHoverEffects();
+    // Auto-refresh removed by request so timestamp stays manual
+  }, 1500);
+
+  // Add keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 't' || e.key === 'T') {
+      const btn = document.getElementById('themeToggle');
+      if (btn) btn.click();
+    }
+  });
+});
+
+// Add window resize handler for responsive animations
+window.addEventListener('resize', () => {
+  // Reinitialize animations on window resize
+  setTimeout(() => {
+    addHoverEffects();
+  }, 300);
 });
