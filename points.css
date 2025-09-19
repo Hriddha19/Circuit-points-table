@@ -22,6 +22,15 @@ body {
 body.light-theme {
   background: linear-gradient(135deg, #f6f8fa 0%, #ffffff 100%);
   color: #24292f;
+  .table-header {
+    background: linear-gradient(135deg, #f6f8fa 0%, #ffffff 100%);
+  }
+  .legend {
+    background: linear-gradient(135deg, #f6f8fa 0%, #ffffff 100%);
+  }
+  .legend-item {
+    color: #24292f;
+  }
 }
 
 body.light-theme header,
@@ -219,7 +228,7 @@ thead th {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 2px solid #30363d;
+  border-bottom: 2px solid #58a6ff;
   position: relative;
   transition: all 0.3s ease;
 }
