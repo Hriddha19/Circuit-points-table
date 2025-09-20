@@ -17,7 +17,7 @@ const teams = [
   },
   {
     name: "Olympus FC",
-    PTS: 133,
+    PTS: 142,
     logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1404785865208762469/Picsart_25-05-20_17-17-06-967.jpg?ex=68ce8d49&is=68cd3bc9&hm=b19c2a871bfa6fbcfab336cf515273c9b5b32aabc9937d7960cffae9e06a5937&"
   },
   {
@@ -32,7 +32,7 @@ const teams = [
   },
   {
     name: "TriForce FC",
-    PTS: 141,
+    PTS: 171,
     logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1404856320905056259/Contemporary_Logo_with_Metallic_Accents_20250812_180614_0000.png?ex=68ce2627&is=68ccd4a7&hm=f215d4b846f55009cf3c6c0c5ec4bc8884bea64f10f15ea78a972fdeb8ba8b2b&"
   },
   {
@@ -64,7 +64,7 @@ const teams = [
 
 // Manual last updated string.
 // Change this value to whatever you want displayed in the footer.
-const manualLastUpdated = "September 19, 2025, 04:00 PM";
+const manualLastUpdated = "September 20, 2025, 11:33 PM";
 
 // Function to show loading spinner
 function showLoading() {
