@@ -64,6 +64,7 @@ const teams = [
     name: "Frozen Balls",
     PTS: 0,
     logo: "https://cdn.discordapp.com/attachments/1246095017223913565/1418968513346797649/1aceb8f8-db8b-455f-8720-fce67496fdee.png?ex=68d00ce8&is=68cebb68&hm=fed816af29d6de9249c139af8b35abd052ffa7e1d688c0248cd533ab8c2ee907&"
+  }
 ];
 
 // Manual last updated string.
