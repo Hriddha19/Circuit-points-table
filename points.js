@@ -1,4 +1,4 @@
-// Enhanced teams JSON with logo URLs 
+PMced teams JSON with logo URLs 
 const teams = [
   {
     name: "Vanguard FC",
@@ -69,7 +69,7 @@ const teams = [
 
 // Manual last updated string.
 // Change this value to whatever you want displayed in the footer.
-const manualLastUpdated = "September 20, 2025, 11:33 PM";
+const manualLastUpdated = "September 20, 2025, 10:20 PM";
 
 // Function to show loading spinner
 function showLoading() {
