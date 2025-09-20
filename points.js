@@ -1,4 +1,4 @@
-// Enhanced teams JSON with logo URLs
+// Enhanced teams JSON with logo URLs 
 const teams = [
   {
     name: "Vanguard FC",
