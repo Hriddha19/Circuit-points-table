@@ -56,9 +56,9 @@ const teams = [
     logo: "https://cdn.discordapp.com/attachments/1360273123727114505/1408440446329552897/eyJpZCI6Im1fNjhhODYyOTBkOTkwODE5MTljYTJiZTc2YTlhM2E3MTE6c2VkaW1lbnQ6Ly8zMjhiZjg0YThiNDYzNzEjZmlsZV8wMDAwMDAwMGQ0ZjA2MjJmOGFkZjNmNDc5NWM5OWM4OSNtZCIsInRzIjoiNDg3NzQwIiwicCI6InB5aSIsInNpZyI6IjZhZDZhMzU0MzgxM2MzMzg2NDM1NjM4NDA5ODE4MzRjODU3MjE0MmRlMDJlN2IwZWNhYjZmYzZlZmM3MTFlYmIiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ3D3D.png?ex=68ce0121&is=68ccafa1&hm=5d8e74687d3ffdf5b41ce8ead2e86d33dfa1a78ddabbd52b46c58ba90a4379dd&"
   },
   {
-    name: "Haramball Stevie Slippers",
+    name: "Stevie Slippers",
     PTS: 0,
-    logo: "https://cdn.discordapp.com/attachments/1155796263795707904/1417180149572698243/file_00000000c62461fbae94971a35f252ab.png?ex=68ce289d&is=68ccd71d&hm=e00704a684b98b26898d281d058bbd7c940cc3dfe39c5745dd3f777a2da7dca9&"
+    logo: "https://cdn.discordapp.com/attachments/1155796263795707904/1418990875396276344/images.webp?ex=68d021bc&is=68ced03c&hm=1e9dd786b30129c4f1838706fbd00c99ceabaff1ff4f075bb006cf8650657046&"
   },
 ];
 
