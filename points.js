@@ -37,7 +37,7 @@ const teams = [
   },
   {
     name: "DesTroyer",
-    PTS: 58,
+    PTS: 78,
     logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1404841739231039610/D7AD5A44-E5A5-45AF-81E7-4E1565D41A04.jpg?ex=68ce1893&is=68ccc713&hm=13fb4be850e682d79ca1526896249628308349214c0fbe7e1ab8993b7bfe025d&"
   },
   {
@@ -57,9 +57,13 @@ const teams = [
   },
   {
     name: "Stevie Slippers",
-    PTS: 0,
+    PTS: 6,
     logo: "https://cdn.discordapp.com/attachments/1155796263795707904/1418990875396276344/images.webp?ex=68d021bc&is=68ced03c&hm=1e9dd786b30129c4f1838706fbd00c99ceabaff1ff4f075bb006cf8650657046&"
   },
+  {
+    name: "Frozen Balls",
+    PTS: 0,
+    logo: "https://cdn.discordapp.com/attachments/1246095017223913565/1418968513346797649/1aceb8f8-db8b-455f-8720-fce67496fdee.png?ex=68d00ce8&is=68cebb68&hm=fed816af29d6de9249c139af8b35abd052ffa7e1d688c0248cd533ab8c2ee907&"
 ];
 
 // Manual last updated string.
