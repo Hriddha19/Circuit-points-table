@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "September 21, 2025, 6:15 PM",
+  "manualLastUpdated": "September 21, 2025, 11:20 PM",
   "teams": [
     {
       "name": "Vanguard FC",
@@ -20,11 +20,6 @@
       "name": "Olympus FC",
       "PTS": 142,
       "logo": "logos/olympus.jpg"
-    },
-    {
-      "name": "BaharSeLona",
-      "PTS": 72,
-      "logo": "logos/baharselona.png"
     },
     {
       "name": "Hyper Crafters CF",
