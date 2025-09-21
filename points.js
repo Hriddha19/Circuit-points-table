@@ -64,12 +64,17 @@ const teams = [
     name: "Frozen Balls",
     PTS: 0,
     logo: "https://cdn.discordapp.com/attachments/1246095017223913565/1418968513346797649/1aceb8f8-db8b-455f-8720-fce67496fdee.png?ex=68d00ce8&is=68cebb68&hm=fed816af29d6de9249c139af8b35abd052ffa7e1d688c0248cd533ab8c2ee907&"
+  },
+  {
+    name: "The Log Lords",
+    PTS: 0,
+    logo: "https://cdn.discordapp.com/attachments/1308752511041011722/1419194876146221227/20250921_110109.jpg?ex=68d0dfb9&is=68cf8e39&hm=4bd7d3c2270e3091f3da27f19ef96597096f35f0ab5a4ce0a91d2738cd0903fd&"
   }
 ];
 
 // Manual last updated string.
 // Change this value to whatever you want displayed in the footer.
-const manualLastUpdated = "September 20, 2025, 10:20 PM";
+const manualLastUpdated = "September 21, 2025, 11:07 PM";
 
 // Function to show loading spinner
 function showLoading() {
