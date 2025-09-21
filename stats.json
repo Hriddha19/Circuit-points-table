@@ -1,5 +1,4 @@
-{
-  "manualLastUpdated": "September 21, 2025, 6:15 PM",
+logoo "manualLastUpdated": "September 21, 2025, 6:15 PM",
   "teams": [
     {
       "name": "Vanguard FC",
@@ -59,7 +58,7 @@
     {
       "name": "Stevie Slippers",
       "PTS": 6,
-      "logo": "logo/stevieslippers.webp"
+      "logo": "logos/stevieslippers.webp"
     },
     {
       "name": "Frozen Balls",
