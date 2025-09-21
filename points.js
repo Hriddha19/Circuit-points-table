@@ -73,7 +73,7 @@ const teams = [
   {
     name: "Garuda FC",
     PTS: 0,
-    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1419256388336484372/image_2025-05-13_131530529.png?ex=68d11903&is=68cfc783&hm=1928286a68574a684222d19756549c6ace39d1322bc86d9bbb9b31e8ab8cba5a&"
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1419288001166442528/file_00000000248c622f96d0bbf3b0caad5f.png?ex=68d13674&is=68cfe4f4&hm=a3fe91cafa249ba7736cc43e1d45b5a3b181b65aedfc6c415d69872d9730a42a&"
   }
 ];
 
