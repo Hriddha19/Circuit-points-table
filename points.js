@@ -69,12 +69,17 @@ const teams = [
     name: "The Log Lords",
     PTS: 0,
     logo: "https://cdn.discordapp.com/attachments/1308752511041011722/1419194876146221227/20250921_110109.jpg?ex=68d0dfb9&is=68cf8e39&hm=4bd7d3c2270e3091f3da27f19ef96597096f35f0ab5a4ce0a91d2738cd0903fd&"
+  },
+  {
+    name: "Garuda FC",
+    PTS: 0,
+    logo: "https://cdn.discordapp.com/attachments/1403801599381471243/1419256388336484372/image_2025-05-13_131530529.png?ex=68d11903&is=68cfc783&hm=1928286a68574a684222d19756549c6ace39d1322bc86d9bbb9b31e8ab8cba5a&"
   }
 ];
 
 // Manual last updated string.
 // Change this value to whatever you want displayed in the footer.
-const manualLastUpdated = "September 21, 2025, 11:07 PM";
+const manualLastUpdated = "September 21, 2025, 3:30 PM";
 
 // Function to show loading spinner
 function showLoading() {
