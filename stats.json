@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "September 21, 2025, 11:20 PM",
+  "manualLastUpdated": "September 25, 2025, 1:50 PM",
   "teams": [
     {
       "name": "Vanguard FC",
@@ -33,7 +33,7 @@
     },
     {
       "name": "DesTroyer",
-      "PTS": 78,
+      "PTS": 84,
       "logo": "logos/destroyer.jpg"
     },
     {
@@ -58,17 +58,17 @@
     },
     {
       "name": "Frozen Balls",
-      "PTS": 0,
+      "PTS": 20,
       "logo": "logos/frozenballs.png"
     },
     {
       "name": "The Log Lords",
-      "PTS": 0,
+      "PTS": 3,
       "logo": "logos/theloglords.jpg"
     },
     {
       "name": "Garuda FC",
-      "PTS": 0,
+      "PTS": 10,
       "logo": "logos/garuda.png"
     }
   ]
