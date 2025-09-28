@@ -1,19 +1,19 @@
 {
-  "manualLastUpdated": "September 26, 2025, 7:20 AM",
+  "manualLastUpdated": "September 28, 2025, 11:59 AM",
   "teams": [
     {
       "name": "Vanguard FC",
-      "PTS": 134,
+      "PTS": 169,
       "logo": "logos/vanguard.jpg"
     },
     {
       "name": "Pro Challengers",
-      "PTS": 137,
+      "PTS": 162,
       "logo": "logos/prochallengers.png"
     },
     {
       "name": "COOKINHOS BRIGADE",
-      "PTS": 76,
+      "PTS": 91,
       "logo": "logos/cb.jpg"
     },
     {
@@ -23,12 +23,12 @@
     },
     {
       "name": "Hyper Crafters CF",
-      "PTS": 80,
+      "PTS": 130,
       "logo": "logos/hypercrafters.png"
     },
     {
       "name": "TriForce FC",
-      "PTS": 171,
+      "PTS": 196,
       "logo": "logos/triforce.png"
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Supa Strikers",
-      "PTS": 66,
+      "PTS": 81,
       "logo": "logos/supastrikers.png"
     },
     {
