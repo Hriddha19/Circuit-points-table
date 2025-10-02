@@ -3,7 +3,7 @@
   "teams": [
     {
       "name": "Vanguard FC",
-      "PTS": 169,
+      "PTS": 178,
       "logo": "logos/vanguard.jpg"
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "Hyper Crafters CF",
-      "PTS": 130,
+      "PTS": 133,
       "logo": "logos/hypercrafters.png"
     },
     {
@@ -53,12 +53,12 @@
     },
     {
       "name": "Stevie Slippers",
-      "PTS": 36,
+      "PTS": 46,
       "logo": "logos/stevieslippers.webp"
     },
     {
       "name": "Frozen Balls",
-      "PTS": 20,
+      "PTS": 50,
       "logo": "logos/frozenballs.png"
     },
     {
