@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "October 2, 2025, 11:50 PM",
+  "manualLastUpdated": "October 3, 2025, 11:50 AM",
   "teams": [
     {
       "name": "Vanguard FC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Pro Challengers",
-      "PTS": 162,
+      "PTS": 168,
       "logo": "logos/prochallengers.png"
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "name": "Garuda FC",
-      "PTS": 10,
+      "PTS": 30,
       "logo": "logos/garuda.png"
     }
   ]
