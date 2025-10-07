@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "October 3, 2025, 11:50 AM",
+  "manualLastUpdated": "October 7, 2025, 10:05 PM",
   "teams": [
     {
       "name": "Vanguard FC",
@@ -13,17 +13,17 @@
     },
     {
       "name": "COOKINHOS BRIGADE",
-      "PTS": 100,
+      "PTS": 109,
       "logo": "logos/cb.jpg"
     },
     {
       "name": "Olympus FC",
-      "PTS": 151,
+      "PTS": 181,
       "logo": "logos/olympus.jpg"
     },
     {
       "name": "Hyper Crafters CF",
-      "PTS": 133,
+      "PTS": 139,
       "logo": "logos/hypercrafters.png"
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "name": "DesTroyer",
-      "PTS": 104,
+      "PTS": 124,
       "logo": "logos/destroyer.jpg"
     },
     {
@@ -53,12 +53,12 @@
     },
     {
       "name": "Stevie Slippers",
-      "PTS": 46,
+      "PTS": 66,
       "logo": "logos/stevieslippers.webp"
     },
     {
       "name": "Frozen Balls",
-      "PTS": 50,
+      "PTS": 56,
       "logo": "logos/frozenballs.png"
     },
     {
