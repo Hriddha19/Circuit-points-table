@@ -1,14 +1,14 @@
 {
-  "manualLastUpdated": "October 7, 2025, 10:05 PM",
+  "manualLastUpdated": "October 13, 2025, 3:00 PM",
   "teams": [
     {
       "name": "Vanguard FC",
-      "PTS": 178,
+      "PTS": 187,
       "logo": "logos/vanguard.jpg"
     },
     {
       "name": "Pro Challengers",
-      "PTS": 168,
+      "PTS": 198,
       "logo": "logos/prochallengers.png"
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "Olympus FC",
-      "PTS": 181,
+      "PTS": 190,
       "logo": "logos/olympus.jpg"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "name": "TriForce FC",
-      "PTS": 226,
+      "PTS": 256,
       "logo": "logos/triforce.png"
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Supa Strikers",
-      "PTS": 81,
+      "PTS": 90,
       "logo": "logos/supastrikers.png"
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "name": "Garuda FC",
-      "PTS": 30,
+      "PTS": 60,
       "logo": "logos/garuda.png"
     }
   ]
