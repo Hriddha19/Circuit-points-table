@@ -3,7 +3,7 @@
   "teams": [
     {
       "name": "Vanguard FC",
-      "PTS": 187,
+      "PTS": 196,
       "logo": "logos/vanguard.jpg"
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "name": "Garuda FC",
-      "PTS": 60,
+      "PTS": 90,
       "logo": "logos/garuda.png"
     }
   ]
