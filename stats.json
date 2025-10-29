@@ -18,7 +18,7 @@
     },
     {
       "name": "Olympus FC",
-      "PTS": 190,
+      "PTS": 199,
       "logo": "logos/olympus.jpg"
     },
     {
@@ -28,17 +28,17 @@
     },
     {
       "name": "TriForce FC",
-      "PTS": 256,
+      "PTS": 286,
       "logo": "logos/triforce.png"
     },
     {
       "name": "DesTroyer",
-      "PTS": 124,
+      "PTS": 154,
       "logo": "logos/destroyer.jpg"
     },
     {
       "name": "Supa Strikers",
-      "PTS": 90,
+      "PTS": 110,
       "logo": "logos/supastrikers.png"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "name": "Stevie Slippers",
-      "PTS": 66,
+      "PTS": 72,
       "logo": "logos/stevieslippers.webp"
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "name": "Garuda FC",
-      "PTS": 90,
+      "PTS": 99,
       "logo": "logos/garuda.png"
     }
   ]
