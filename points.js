@@ -1,9 +1,10 @@
 // points.js
-// Loads teams + manualLastUpdated from stats.json (so you can edit that file)
-// Minimal changes from your original file — rest of logic unchanged.
+// Loads teams + manualLastUpdated from stats.json
+// NEW: Loads qualificationSpots and handles pre-qualified logic
 
 let teams = [];
 let manualLastUpdated = "";
+let qualificationSpots = 10; // Default value, will be overwritten by JSON
 
 // Internal flags to ensure single initialization
 let __pointsDataLoaded = false;
@@ -18,6 +19,7 @@ fetch("stats.json")
   .then((data) => {
     teams = Array.isArray(data.teams) ? data.teams : [];
     manualLastUpdated = data.manualLastUpdated || manualLastUpdated;
+    qualificationSpots = data.qualificationSpots || 10; // Get new value
     __pointsDataLoaded = true;
     
     // If DOM already loaded, try to initialize immediately
@@ -54,21 +56,35 @@ function buildTable() {
   // Sort by PTS descending
   teams.sort((a, b) => b.PTS - a.PTS);
   
+  let spotsFilled = 0; // Counter for qualification spots
+  
   // Add delay for realistic loading effect
   setTimeout(() => {
     teams.forEach((team, index) => {
       const row = document.createElement("tr");
       
-      // Add position classes
-      if (index < 10) {
-        row.classList.add("top-team");
+      let status = "";
+      let statusText = "";
+      let rowClass = "";
+      
+      // Determine status based on new logic
+      if (team.preQualified === true) {
+        status = "pre-qualified";
+        statusText = "Qualified";
+        rowClass = "zone-pre-qualified";
+      } else if (spotsFilled < qualificationSpots) {
+        status = "qualified";
+        statusText = "Qualification Zone";
+        rowClass = "zone-qualified";
+        spotsFilled++; // Increment counter only for non-pre-qualified teams
       } else {
-        row.classList.add("bottom-team");
+        status = "not-qualified";
+        statusText = "Elimination Zone";
+        rowClass = "zone-elimination";
       }
       
-      // Determine status
-      const status = index < 10 ? "qualified" : "not-qualified";
-      const statusText = index < 10 ? "Qualification Zone" : "Elimination Zone";
+      // Add position class to row
+      row.classList.add(rowClass);
       
       // Create team cell with logo
       const teamCell = `
