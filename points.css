@@ -305,6 +305,13 @@ tbody td {
   box-shadow: 0 2px 8px rgba(46, 164, 79, 0.3);
 }
 
+/* ##### NEW STATUS ADDED HERE ##### */
+.pre-qualified {
+  background: linear-gradient(135deg, #ffc107 0%, #ffab00 100%);
+  color: #212529; /* Dark text for yellow background */
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.4);
+}
+
 .not-qualified {
   background: linear-gradient(135deg, #d73a49 0%, #b31d28 100%);
   color: white;
@@ -333,13 +340,19 @@ tbody tr:hover .team-name {
   color: #58a6ff;
 }
 
+/* ##### BORDER CLASSES UPDATED HERE ##### */
 /* Enhanced borders for position indicators */
-tbody tr.top-team {
+tbody tr.zone-qualified {
   border-left: 6px solid #2ea44f;
   background: linear-gradient(90deg, rgba(46, 164, 79, 0.05) 0%, transparent 100%);
 }
 
-tbody tr.bottom-team {
+tbody tr.zone-pre-qualified {
+  border-left: 6px solid #ffc107;
+  background: linear-gradient(90deg, rgba(255, 193, 7, 0.05) 0%, transparent 100%);
+}
+
+tbody tr.zone-elimination {
   border-left: 6px solid #d73a49;
   background: linear-gradient(90deg, rgba(215, 58, 73, 0.05) 0%, transparent 100%);
 }
@@ -397,6 +410,11 @@ tbody tr:nth-child(3) .rank-cell {
 
 .legend-color.qualified {
   background: #2ea44f;
+}
+
+/* ##### NEW LEGEND COLOR ADDED HERE ##### */
+.legend-color.pre-qualified {
+  background: #ffc107;
 }
 
 .legend-color.not-qualified {
