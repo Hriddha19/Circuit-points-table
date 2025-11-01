@@ -1,6 +1,6 @@
 // points.js
 // Loads teams + manualLastUpdated from stats.json
-// NEW: Loads qualificationSpots and handles pre-qualified logic
+// NEW: Loads qualificationSpots and handles world champion / pre-qualified logic
 
 let teams = [];
 let manualLastUpdated = "";
@@ -67,17 +67,29 @@ function buildTable() {
       let statusText = "";
       let rowClass = "";
       
+      // ##### NEW LOGIC HERE #####
       // Determine status based on new logic
-      if (team.preQualified === true) {
+      // Check for World Champion first
+      if (team.isWorldChampion === true) {
+        status = "world-champion";
+        statusText = "World Champion";
+        rowClass = "zone-world-champion";
+      }
+      // Then check for Pre-Qualified
+      else if (team.preQualified === true) {
         status = "pre-qualified";
         statusText = "Qualified";
         rowClass = "zone-pre-qualified";
-      } else if (spotsFilled < qualificationSpots) {
+      }
+      // Then check for open qualification spots
+      else if (spotsFilled < qualificationSpots) {
         status = "qualified";
         statusText = "Qualification Zone";
         rowClass = "zone-qualified";
-        spotsFilled++; // Increment counter only for non-pre-qualified teams
-      } else {
+        spotsFilled++; // Increment counter ONLY for this group
+      }
+      // Everyone else is in elimination
+      else {
         status = "not-qualified";
         statusText = "Elimination Zone";
         rowClass = "zone-elimination";
