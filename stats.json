@@ -1,90 +1,104 @@
 {
-  "manualLastUpdated": "October 29, 2025, 11:34 PM",
+  "manualLastUpdated": "November 1, 2025, 2:40 PM",
   "qualificationSpots": 10,
   "teams": [
     {
       "name": "Vanguard FC",
       "PTS": 226,
       "logo": "logos/vanguard.jpg",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "Pro Challengers",
       "PTS": 308,
       "logo": "logos/prochallengers.png",
-      "preQualified": true
+      "preQualified": true,
+      "isWorldChampion": false
     },
     {
       "name": "COOKINHOS BRIGADE",
       "PTS": 109,
       "logo": "logos/cb.jpg",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "Olympus FC",
       "PTS": 214,
       "logo": "logos/olympus.jpg",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "Hyper Crafters CF",
       "PTS": 169,
       "logo": "logos/hypercrafters.png",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "TriForce FC",
       "PTS": 286,
       "logo": "logos/triforce.png",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "DesTroyer",
       "PTS": 184,
       "logo": "logos/destroyer.jpg",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "Supa Strikers",
       "PTS": 110,
       "logo": "logos/supastrikers.png",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "Chuha Gang",
       "PTS": 6,
       "logo": "logos/chuhagang.jpg",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "T*m Haters",
       "PTS": 70,
       "logo": "logos/tmhaters.png",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "Stevie Slippers",
       "PTS": 87,
       "logo": "logos/stevieslippers.webp",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "The Blues FC",
       "PTS": 92,
       "logo": "logos/thebluesfc.png",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "The Log Lords",
       "PTS": 9,
       "logo":"logos/theloglords.jpg",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     },
     {
       "name": "Garuda FC",
       "PTS": 99,
       "logo": "logos/garuda.png",
-      "preQualified": false
+      "preQualified": false,
+      "isWorldChampion": false
     }
   ]
 }
