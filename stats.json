@@ -4,13 +4,13 @@
   "teams": [
     {
       "name": "Vanguard FC",
-      "PTS": 196,
+      "PTS": 226,
       "logo": "logos/vanguard.jpg",
       "preQualified": false
     },
     {
       "name": "Pro Challengers",
-      "PTS": 218,
+      "PTS": 308,
       "logo": "logos/prochallengers.png",
       "preQualified": true
     },
@@ -22,13 +22,13 @@
     },
     {
       "name": "Olympus FC",
-      "PTS": 199,
+      "PTS": 214,
       "logo": "logos/olympus.jpg",
       "preQualified": false
     },
     {
       "name": "Hyper Crafters CF",
-      "PTS": 139,
+      "PTS": 169,
       "logo": "logos/hypercrafters.png",
       "preQualified": false
     },
@@ -40,7 +40,7 @@
     },
     {
       "name": "DesTroyer",
-      "PTS": 154,
+      "PTS": 184,
       "logo": "logos/destroyer.jpg",
       "preQualified": false
     },
@@ -64,13 +64,13 @@
     },
     {
       "name": "Stevie Slippers",
-      "PTS": 72,
+      "PTS": 87,
       "logo": "logos/stevieslippers.webp",
       "preQualified": false
     },
     {
       "name": "The Blues FC",
-      "PTS": 62,
+      "PTS": 92,
       "logo": "logos/thebluesfc.png",
       "preQualified": false
     },
