@@ -299,19 +299,28 @@ tbody td {
   animation: fadeIn 0.8s ease-out;
 }
 
+/* Qualification Zone = GREEN */
 .qualified {
   background: linear-gradient(135deg, #2ea44f 0%, #22863a 100%);
   color: white;
   box-shadow: 0 2px 8px rgba(46, 164, 79, 0.3);
 }
 
-/* ##### NEW STATUS ADDED HERE ##### */
+/* Qualified = WHITE */
 .pre-qualified {
+  background: linear-gradient(135deg, #f0f6fc 0%, #ffffff 100%);
+  color: #24292f; /* Dark text for readability */
+  box-shadow: 0 2px 8px rgba(240, 246, 252, 0.4);
+}
+
+/* World Champion = GOLD */
+.world-champion {
   background: linear-gradient(135deg, #ffc107 0%, #ffab00 100%);
   color: #212529; /* Dark text for yellow background */
   box-shadow: 0 2px 8px rgba(255, 193, 7, 0.4);
 }
 
+/* Elimination Zone = RED */
 .not-qualified {
   background: linear-gradient(135deg, #d73a49 0%, #b31d28 100%);
   color: white;
@@ -340,7 +349,15 @@ tbody tr:hover .team-name {
   color: #58a6ff;
 }
 
-/* ##### BORDER CLASSES UPDATED HERE ##### */
+/* ##### UPDATED RULE HERE ##### */
+/* World Champion team name color */
+tbody tr.zone-world-champion .team-name {
+  color: #ffc107; /* Gold color for world champion team name */
+  font-weight: 700; /* Make it bold */
+  text-shadow: none; /* Remove text-shadow to replace with filter */
+  filter: drop-shadow(0 0 4px rgba(255, 193, 7, 0.7));
+}
+
 /* Enhanced borders for position indicators */
 tbody tr.zone-qualified {
   border-left: 6px solid #2ea44f;
@@ -348,6 +365,11 @@ tbody tr.zone-qualified {
 }
 
 tbody tr.zone-pre-qualified {
+  border-left: 6px solid #f0f6fc; /* White border */
+  background: linear-gradient(90deg, rgba(240, 246, 252, 0.05) 0%, transparent 100%);
+}
+
+tbody tr.zone-world-champion {
   border-left: 6px solid #ffc107;
   background: linear-gradient(90deg, rgba(255, 193, 7, 0.05) 0%, transparent 100%);
 }
@@ -356,6 +378,7 @@ tbody tr.zone-elimination {
   border-left: 6px solid #d73a49;
   background: linear-gradient(90deg, rgba(215, 58, 73, 0.05) 0%, transparent 100%);
 }
+
 
 /* Rank styling */
 .rank-cell {
@@ -412,8 +435,11 @@ tbody tr:nth-child(3) .rank-cell {
   background: #2ea44f;
 }
 
-/* ##### NEW LEGEND COLOR ADDED HERE ##### */
 .legend-color.pre-qualified {
+  background: #f0f6fc; /* White legend color */
+}
+
+.legend-color.world-champion {
   background: #ffc107;
 }
 
@@ -570,12 +596,26 @@ footer {
     flex-shrink: 0;
   }
 
+  /* This is the default rule that causes clipping */
   tbody td {
     padding: 12px 6px;
-    overflow: hidden;
+    overflow: hidden; /* <-- This is the problem */
     height: 60px;
     box-sizing: border-box;
   }
+  
+  /* ##### THIS IS THE CORRECT FIX ##### */
+  /* This new rule targets ONLY the champion's parent cells */
+  tbody tr.zone-world-champion td,
+  tbody tr.zone-world-champion .team-cell {
+    overflow: visible; /* This allows the glow to render */
+  }
+  
+  /* The .team-name span itself keeps overflow: hidden */
+  tbody tr.zone-world-champion .team-name {
+    filter: drop-shadow(0 0 4px rgba(255, 193, 7, 0.7));
+  }
+
 
   .rank-cell {
     font-size: 1.1rem;
@@ -608,6 +648,10 @@ footer {
     gap: 12px;
     margin: 15px 10px;
     padding: 12px;
+  }
+  
+  .legend-item {
+    gap: 10px;
   }
 
   .table-header {
@@ -663,6 +707,7 @@ footer {
     padding-left: 0;
     gap: 10px;
     min-height: 40px;
+    /* This inherits 'overflow: visible' from the 768px rule */
   }
 
   .team-name {
@@ -670,6 +715,7 @@ footer {
     max-width: none;
     flex: 1;
     min-width: 0;
+    /* This inherits 'overflow: hidden' from the default */
   }
 
   .team-logo {
@@ -686,6 +732,7 @@ footer {
     font-weight: 600;
   }
 
+  /* This inherits 'overflow: visible' from the 768px rule */
   tbody td {
     padding: 10px 4px;
     height: 55px;
@@ -716,6 +763,7 @@ footer {
 }
 
 @media (max-width: 360px) {
+  /* All fixes are inherited from the 768px media query */
   .team-name {
     font-size: 0.83rem;
     flex: 1;
