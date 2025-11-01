@@ -306,11 +306,11 @@ tbody td {
   box-shadow: 0 2px 8px rgba(46, 164, 79, 0.3);
 }
 
-/* Qualified = WHITE */
+/* Qualified = VIOLET */
 .pre-qualified {
-  background: linear-gradient(135deg, #f0f6fc 0%, #ffffff 100%);
-  color: #24292f; /* Dark text for readability */
-  box-shadow: 0 2px 8px rgba(240, 246, 252, 0.4);
+  background: linear-gradient(135deg, #8957e5 0%, #6f42c1 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(111, 66, 193, 0.4);
 }
 
 /* World Champion = GOLD */
@@ -357,12 +357,12 @@ tbody tr.zone-world-champion .team-name {
   filter: drop-shadow(0 0 4px rgba(255, 193, 7, 0.7));
 }
 
-/* ##### NEW RULE FOR QUALIFIED GLOW (DESKTOP) ##### */
+/* ##### UPDATED RULE FOR QUALIFIED (VIOLET) ##### */
 tbody tr.zone-pre-qualified .team-name {
-  color: #f0f6fc; /* White text color */
+  color: #a985f3; /* Light violet text color */
   font-weight: 700; /* Make it bold */
   text-shadow: none;
-  filter: drop-shadow(0 0 4px rgba(240, 246, 252, 0.7));
+  filter: none; /* Explicitly remove filter */
 }
 
 
@@ -373,8 +373,8 @@ tbody tr.zone-qualified {
 }
 
 tbody tr.zone-pre-qualified {
-  border-left: 6px solid #f0f6fc; /* White border */
-  background: linear-gradient(90deg, rgba(240, 246, 252, 0.05) 0%, transparent 100%);
+  border-left: 6px solid #6f42c1; /* Violet border */
+  background: linear-gradient(90deg, rgba(111, 66, 193, 0.05) 0%, transparent 100%);
 }
 
 tbody tr.zone-world-champion {
@@ -444,7 +444,7 @@ tbody tr:nth-child(3) .rank-cell {
 }
 
 .legend-color.pre-qualified {
-  background: #f0f6fc; /* White legend color */
+  background: #6f42c1; /* Violet legend color */
 }
 
 .legend-color.world-champion {
@@ -613,24 +613,24 @@ footer {
   }
   
   /* ##### THIS IS THE CORRECT FIX (UPDATED) ##### */
-  /* This new rule targets ONLY the champion and qualified rows */
+  /* This new rule targets ONLY the champion row */
   tbody tr.zone-world-champion td,
-  tbody tr.zone-world-champion .team-cell,
-  tbody tr.zone-pre-qualified td,
-  tbody tr.zone-pre-qualified .team-cell {
+  tbody tr.zone-world-champion .team-cell {
     overflow: visible; /* This allows the glow to render */
   }
+  /* (The .zone-pre-qualified rules were removed here) */
+
   
   /* The .team-name span itself keeps overflow: hidden */
   tbody tr.zone-world-champion .team-name {
     filter: drop-shadow(0 0 4px rgba(255, 193, 7, 0.7));
   }
   
-  /* ##### NEW RULE FOR MOBILE QUALIFIED GLOW ##### */
+  /* ##### UPDATED RULE FOR QUALIFIED (VIOLET) ##### */
   tbody tr.zone-pre-qualified .team-name {
-    color: #f0f6fc; /* White text color */
+    color: #a985f3; /* Light violet text color */
     font-weight: 700; /* Make it bold */
-    filter: drop-shadow(0 0 4px rgba(240, 246, 252, 0.7));
+    filter: none; /* Explicitly remove filter */
   }
 
 
@@ -724,7 +724,7 @@ footer {
     padding-left: 0;
     gap: 10px;
     min-height: 40px;
-    /* This inherits 'overflow: visible' from the 768px rule */
+    /* This inherits 'overflow: visible' from the 768px rule if present */
   }
 
   .team-name {
@@ -749,7 +749,7 @@ footer {
     font-weight: 600;
   }
 
-  /* This inherits 'overflow: visible' from the 768px rule */
+  /* This inherits 'overflow: visible' from the 768px rule if present */
   tbody td {
     padding: 10px 4px;
     height: 55px;
