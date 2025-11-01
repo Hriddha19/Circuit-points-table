@@ -349,7 +349,6 @@ tbody tr:hover .team-name {
   color: #58a6ff;
 }
 
-/* ##### UPDATED RULE HERE ##### */
 /* World Champion team name color */
 tbody tr.zone-world-champion .team-name {
   color: #ffc107; /* Gold color for world champion team name */
@@ -357,6 +356,15 @@ tbody tr.zone-world-champion .team-name {
   text-shadow: none; /* Remove text-shadow to replace with filter */
   filter: drop-shadow(0 0 4px rgba(255, 193, 7, 0.7));
 }
+
+/* ##### NEW RULE FOR QUALIFIED GLOW (DESKTOP) ##### */
+tbody tr.zone-pre-qualified .team-name {
+  color: #f0f6fc; /* White text color */
+  font-weight: 700; /* Make it bold */
+  text-shadow: none;
+  filter: drop-shadow(0 0 4px rgba(240, 246, 252, 0.7));
+}
+
 
 /* Enhanced borders for position indicators */
 tbody tr.zone-qualified {
@@ -604,16 +612,25 @@ footer {
     box-sizing: border-box;
   }
   
-  /* ##### THIS IS THE CORRECT FIX ##### */
-  /* This new rule targets ONLY the champion's parent cells */
+  /* ##### THIS IS THE CORRECT FIX (UPDATED) ##### */
+  /* This new rule targets ONLY the champion and qualified rows */
   tbody tr.zone-world-champion td,
-  tbody tr.zone-world-champion .team-cell {
+  tbody tr.zone-world-champion .team-cell,
+  tbody tr.zone-pre-qualified td,
+  tbody tr.zone-pre-qualified .team-cell {
     overflow: visible; /* This allows the glow to render */
   }
   
   /* The .team-name span itself keeps overflow: hidden */
   tbody tr.zone-world-champion .team-name {
     filter: drop-shadow(0 0 4px rgba(255, 193, 7, 0.7));
+  }
+  
+  /* ##### NEW RULE FOR MOBILE QUALIFIED GLOW ##### */
+  tbody tr.zone-pre-qualified .team-name {
+    color: #f0f6fc; /* White text color */
+    font-weight: 700; /* Make it bold */
+    filter: drop-shadow(0 0 4px rgba(240, 246, 252, 0.7));
   }
 
 
