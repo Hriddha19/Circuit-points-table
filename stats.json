@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "November 1, 2025, 2:40 PM",
+  "manualLastUpdated": "November 2, 2025, 11:00 AM",
   "qualificationSpots": 10,
   "teams": [
     {
@@ -98,6 +98,13 @@
       "PTS": 144,
       "logo": "logos/garuda.png",
       "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Saste Nukers",
+      "PTS": 65,
+      "logo": "logos/sn.png",
+      "preQualified": true,
       "isWorldChampion": false
     }
   ]
