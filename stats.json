@@ -4,14 +4,14 @@
   "teams": [
     {
       "name": "Vanguard FC",
-      "PTS": 226,
+      "PTS": 252,
       "logo": "logos/vanguard.jpg",
       "preQualified": false,
       "isWorldChampion": false
     },
     {
       "name": "Pro Challengers",
-      "PTS": 308,
+      "PTS": 314,
       "logo": "logos/prochallengers.png",
       "preQualified": true,
       "isWorldChampion": false
@@ -46,14 +46,14 @@
     },
     {
       "name": "DesTroyer",
-      "PTS": 184,
+      "PTS": 190,
       "logo": "logos/destroyer.jpg",
       "preQualified": false,
       "isWorldChampion": false
     },
     {
       "name": "Supa Strikers",
-      "PTS": 110,
+      "PTS": 130,
       "logo": "logos/supastrikers.png",
       "preQualified": false,
       "isWorldChampion": false
@@ -81,7 +81,7 @@
     },
     {
       "name": "The Blues FC",
-      "PTS": 92,
+      "PTS": 112,
       "logo": "logos/thebluesfc.png",
       "preQualified": false,
       "isWorldChampion": false
