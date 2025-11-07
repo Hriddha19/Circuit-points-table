@@ -4,7 +4,7 @@
   "teams": [
     {
       "name": "Vanguard FC",
-      "PTS": 252,
+      "PTS": 272,
       "logo": "logos/vanguard.jpg",
       "preQualified": false,
       "isWorldChampion": false
@@ -53,7 +53,7 @@
     },
     {
       "name": "Supa Strikers",
-      "PTS": 130,
+      "PTS": 136,
       "logo": "logos/supastrikers.png",
       "preQualified": false,
       "isWorldChampion": false
