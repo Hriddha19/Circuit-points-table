@@ -1,5 +1,13 @@
 {
-  "manualLastUpdated": "November 28, 2025, 11:00 AM",
+  "manualLastUpdated": "December 3, 2025, 8:53 PM",
   "qualificationSpots": 10,
-  "teams": []
+  "teams": [
+    {
+      "name": "Destroyer",
+      "PTS": 0,
+      "logo": "logos/destroyer.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    }
+  ]
 }
