@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 4, 2025, 1:10 PM",
+  "manualLastUpdated": "December 4, 2025, 6:17 PM",
   "qualificationSpots": 10,
   "teams": [
     {
@@ -20,6 +20,13 @@
       "name": "Triforce FC",
       "PTS": 0,
       "logo": "logos/triforcefc.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Pro Challengers",
+      "PTS": 0,
+      "logo": "logos/prochallengers.jpg",
       "preQualified": false,
       "isWorldChampion": false
     }
