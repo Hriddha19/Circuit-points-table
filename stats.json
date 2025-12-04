@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 4, 2025, 7:01 AM",
+  "manualLastUpdated": "December 4, 2025, 1:10 PM",
   "qualificationSpots": 10,
   "teams": [
     {
@@ -13,6 +13,13 @@
       "name": "Haramball Victims",
       "PTS": 0,
       "logo": "logos/haramballvictims.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Triforce FC",
+      "PTS": 0,
+      "logo": "logos/triforcefc.jpg",
       "preQualified": false,
       "isWorldChampion": false
     }
