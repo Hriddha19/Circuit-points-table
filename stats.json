@@ -1,11 +1,18 @@
 {
-  "manualLastUpdated": "December 3, 2025, 8:53 PM",
+  "manualLastUpdated": "December 4, 2025, 7:01 AM",
   "qualificationSpots": 10,
   "teams": [
     {
       "name": "Destroyer",
       "PTS": 0,
       "logo": "logos/destroyer.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Haramball Victims",
+      "PTS": 0,
+      "logo": "logos/haramballvictims.jpg",
       "preQualified": false,
       "isWorldChampion": false
     }
