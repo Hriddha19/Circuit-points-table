@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 4, 2025, 6:29 PM",
+  "manualLastUpdated": "December 4, 2025, 7:41 PM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -27,6 +27,27 @@
       "name": "Pro Challengers",
       "PTS": 0,
       "logo": "logos/prochallengers.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Ubers",
+      "PTS": 0,
+      "logo": "logos/ubers.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Pxg",
+      "PTS": 0,
+      "logo": "logos/pxg.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Bastard Munchen",
+      "PTS": 0,
+      "logo": "logos/bastardmunchen.jpg",
       "preQualified": false,
       "isWorldChampion": false
     }
