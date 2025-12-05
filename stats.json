@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 4, 2025, 7:41 PM",
+  "manualLastUpdated": "December 5, 2025, 8:45 PM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -48,6 +48,13 @@
       "name": "Bastard Munchen",
       "PTS": 0,
       "logo": "logos/bastardmunchen.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Garuda FC",
+      "PTS": 0,
+      "logo": "logos/garudafc.jpg",
       "preQualified": false,
       "isWorldChampion": false
     }
