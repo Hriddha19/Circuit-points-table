@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 6, 2025, 9:06 AM",
+  "manualLastUpdated": "December 6, 2025, 6:25 PM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -59,9 +59,9 @@
       "isWorldChampion": false
     },
     {
-      "name": "Cape Crusaders",
+      "name": "Caped Crusaders",
       "PTS": 0,
-      "logo": "logos/capecrusaders.jpg",
+      "logo": "logos/capedcrusaders.jpg",
       "preQualified": false,
       "isWorldChampion": false
     },
