@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 5, 2025, 8:45 PM",
+  "manualLastUpdated": "December 6, 2025, 9:06 AM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -55,6 +55,27 @@
       "name": "Garuda FC",
       "PTS": 0,
       "logo": "logos/garudafc.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Cape Crusaders",
+      "PTS": 0,
+      "logo": "logos/capecrusaders.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Olympus FC",
+      "PTS": 0,
+      "logo": "logos/olympusfc.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "The Blues",
+      "PTS": 0,
+      "logo": "logos/theblues.jpg",
       "preQualified": false,
       "isWorldChampion": false
     }
