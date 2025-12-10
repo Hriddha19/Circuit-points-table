@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 6, 2025, 6:25 PM",
+  "manualLastUpdated": "December 10, 2025, 10:13 PM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -27,7 +27,7 @@
       "name": "Pro Challengers",
       "PTS": 0,
       "logo": "logos/prochallengers.jpg",
-      "preQualified": false,
+      "preQualified": true,
       "isWorldChampion": false
     },
     {
@@ -76,7 +76,7 @@
       "name": "The Blues",
       "PTS": 0,
       "logo": "logos/theblues.jpg",
-      "preQualified": false,
+      "preQualified": true,
       "isWorldChampion": false
     }
   ]
