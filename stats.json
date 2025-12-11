@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 10, 2025, 10:13 PM",
+  "manualLastUpdated": "December 11, 2025, 8:08 PM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -77,6 +77,13 @@
       "PTS": 0,
       "logo": "logos/theblues.jpg",
       "preQualified": true,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Hyper Crafters CF",
+      "PTS": 0,
+      "logo": "logos/hypercrafterscf.jpg",
+      "preQualified": false,
       "isWorldChampion": false
     }
   ]
