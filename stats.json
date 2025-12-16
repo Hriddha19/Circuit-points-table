@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 13, 2025, 1:01 PM",
+  "manualLastUpdated": "December 16, 2025, 9:17 AM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "name": "Garuda FC",
-      "PTS": 0,
+      "PTS": 9,
       "logo": "logos/garudafc.jpg",
       "preQualified": false,
       "isWorldChampion": false
@@ -67,7 +67,7 @@
     },
     {
       "name": "Olympus FC",
-      "PTS": 0,
+      "PTS": 30,
       "logo": "logos/olympusfc.jpg",
       "preQualified": false,
       "isWorldChampion": false
@@ -83,6 +83,13 @@
       "name": "Hyper Crafters CF",
       "PTS": 0,
       "logo": "logos/hypercrafterscf.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Pitch Invaders FC",
+      "PTS": 0,
+      "logo": "logos/pitchinvadersfc.jpg",
       "preQualified": false,
       "isWorldChampion": false
     }
