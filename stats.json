@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 29, 2025, 3:35 PM",
+  "manualLastUpdated": "December 29, 2025, 3:38 PM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Caped Crusaders",
-      "PTS": 20,
+      "PTS": 26,
       "logo": "logos/capedcrusaders.jpg",
       "preQualified": false,
       "isWorldChampion": false
@@ -88,7 +88,7 @@
     },
     {
       "name": "Pitch Invaders FC",
-      "PTS": 0,
+      "PTS": 20,
       "logo": "logos/pitchinvadersfc.jpg",
       "preQualified": false,
       "isWorldChampion": false
