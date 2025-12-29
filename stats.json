@@ -1,10 +1,10 @@
 {
-  "manualLastUpdated": "December 22, 2025, 10:24 AM",
+  "manualLastUpdated": "December 29, 2025, 3:35 PM",
   "qualificationSpots": 8,
   "teams": [
     {
       "name": "Destroyer",
-      "PTS": 39,
+      "PTS": 45,
       "logo": "logos/destroyer.jpg",
       "preQualified": false,
       "isWorldChampion": false
@@ -18,7 +18,7 @@
     },
     {
       "name": "Triforce FC",
-      "PTS": 6,
+      "PTS": 26,
       "logo": "logos/triforcefc.jpg",
       "preQualified": false,
       "isWorldChampion": false
