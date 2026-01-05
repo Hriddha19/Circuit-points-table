@@ -494,4 +494,24 @@ footer {
   
   tbody td { overflow: visible; }
   tbody tr.zone-world-champion .team-cell { overflow: visible; }
+  
+    /* ... existing code ... */
+  
+  /* NEW: Forces vertical centering for Rank, Logo, and Points */
+  tbody td {
+    display: flex;           /* Makes the cell a flex container */
+    align-items: center;     /* Perfectly centers content vertically */
+    height: 70px;            /* Forces consistent row height */
+    padding-top: 0;          /* Removes padding that causes misalignment */
+    padding-bottom: 0;
+  }
+
+  /* Optional: Centers the Rank and Points horizontally for a cleaner look */
+  tbody td:nth-child(1),
+  tbody td:nth-child(3) {
+    justify-content: center;
+  }
+
+  /* ... rest of your code ... */
+
 }
