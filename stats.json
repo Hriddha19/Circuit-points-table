@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "January 5, 2026, 9:36 AM",
+  "manualLastUpdated": "January 5, 2026, 9:40 AM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -17,7 +17,7 @@
       "isWorldChampion": false
     },
     {
-      "name": "TriForce FC",
+      "name": "Triforce FC",
       "PTS": 26,
       "logo": "logos/triforcefc.jpg",
       "preQualified": false,
@@ -31,7 +31,7 @@
       "isWorldChampion": true
     },
     {
-      "name": "PXG",
+      "name": "Pxg",
       "PTS": 20,
       "logo": "logos/pxg.jpg",
       "preQualified": false,
@@ -87,7 +87,7 @@
       "isWorldChampion": false
     },
     {
-      "name": "M.R.A",
+      "name": "Mra",
       "PTS": 0,
       "logo": "logos/mra.jpg",
       "preQualified": false,
