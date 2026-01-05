@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "December 30, 2025, 9:56 PM",
+  "manualLastUpdated": "January 5, 2026, 9:36 AM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -17,7 +17,7 @@
       "isWorldChampion": false
     },
     {
-      "name": "Triforce FC",
+      "name": "TriForce FC",
       "PTS": 26,
       "logo": "logos/triforcefc.jpg",
       "preQualified": false,
@@ -31,14 +31,7 @@
       "isWorldChampion": true
     },
     {
-      "name": "Ubers",
-      "PTS": 0,
-      "logo": "logos/ubers.jpg",
-      "preQualified": false,
-      "isWorldChampion": false
-    },
-    {
-      "name": "Pxg",
+      "name": "PXG",
       "PTS": 20,
       "logo": "logos/pxg.jpg",
       "preQualified": false,
@@ -48,13 +41,6 @@
       "name": "Vanguard FC",
       "PTS": 30,
       "logo": "logos/vanguardfc.jpg",
-      "preQualified": false,
-      "isWorldChampion": false
-    },
-    {
-      "name": "Garuda FC",
-      "PTS": 9,
-      "logo": "logos/garudafc.jpg",
       "preQualified": false,
       "isWorldChampion": false
     },
@@ -90,6 +76,20 @@
       "name": "Pitch Invaders FC",
       "PTS": 20,
       "logo": "logos/pitchinvadersfc.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "Resident Evils",
+      "PTS": 0,
+      "logo": "logos/residentevils.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "M.R.A",
+      "PTS": 0,
+      "logo": "logos/mra.jpg",
       "preQualified": false,
       "isWorldChampion": false
     }
