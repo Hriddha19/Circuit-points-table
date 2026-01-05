@@ -507,11 +507,14 @@ footer {
   }
 
   /* Optional: Centers the Rank and Points horizontally for a cleaner look */
-  tbody td:nth-child(1),
-  tbody td:nth-child(3) {
+    /* Rank (#) - Stays perfectly centered */
+  tbody td:nth-child(1) {
     justify-content: center;
   }
 
-  /* ... rest of your code ... */
-
+  /* Points (PTS) - Centered but shifted right */
+  tbody td:nth-child(3) {
+    justify-content: center;
+    padding-left: 32px; /* Shifts the number 20px to the right */
+  }
 }
