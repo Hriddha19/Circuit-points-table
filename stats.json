@@ -1,10 +1,10 @@
 {
-  "manualLastUpdated": "January 6, 2026, 10:46 AM",
+  "manualLastUpdated": "January 7, 2026, 2:42 PM",
   "qualificationSpots": 8,
   "teams": [
     {
       "name": "Destroyer",
-      "PTS": 75,
+      "PTS": 81,
       "logo": "logos/destroyer.jpg",
       "preQualified": false,
       "isWorldChampion": false
@@ -32,7 +32,7 @@
     },
     {
       "name": "Pxg",
-      "PTS": 50,
+      "PTS": 70,
       "logo": "logos/pxg.jpg",
       "preQualified": false,
       "isWorldChampion": false
