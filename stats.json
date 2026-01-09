@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "January 7, 2026, 2:42 PM",
+  "manualLastUpdated": "January 9, 2026, 10:44 PM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -90,6 +90,13 @@
       "name": "Mra",
       "PTS": 0,
       "logo": "logos/mra.jpg",
+      "preQualified": false,
+      "isWorldChampion": false
+    },
+    {
+      "name": "The Log Lords",
+      "PTS": 0,
+      "logo": "logos/theloglords.jpg",
       "preQualified": false,
       "isWorldChampion": false
     }
