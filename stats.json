@@ -1,5 +1,5 @@
 {
-  "manualLastUpdated": "January 9, 2026, 10:44 PM",
+  "manualLastUpdated": "January 12, 2026, 5:20 PM",
   "qualificationSpots": 8,
   "teams": [
     {
@@ -11,14 +11,14 @@
     },
     {
       "name": "Haramball Victims",
-      "PTS": 51,
+      "PTS": 57,
       "logo": "logos/haramballvictims.jpg",
       "preQualified": false,
       "isWorldChampion": false
     },
     {
       "name": "Triforce FC",
-      "PTS": 56,
+      "PTS": 65,
       "logo": "logos/triforcefc.jpg",
       "preQualified": false,
       "isWorldChampion": false
@@ -32,14 +32,14 @@
     },
     {
       "name": "Pxg",
-      "PTS": 70,
+      "PTS": 90,
       "logo": "logos/pxg.jpg",
       "preQualified": false,
       "isWorldChampion": false
     },
     {
       "name": "Vanguard FC",
-      "PTS": 80,
+      "PTS": 110,
       "logo": "logos/vanguardfc.jpg",
       "preQualified": false,
       "isWorldChampion": false
@@ -90,13 +90,6 @@
       "name": "Mra",
       "PTS": 0,
       "logo": "logos/mra.jpg",
-      "preQualified": false,
-      "isWorldChampion": false
-    },
-    {
-      "name": "The Log Lords",
-      "PTS": 0,
-      "logo": "logos/theloglords.jpg",
       "preQualified": false,
       "isWorldChampion": false
     }
